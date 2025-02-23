@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Cafe</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+            color: #333;
+        }
+        header {
+            background-color: #3c3b3d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 15px 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-image: url('https://source.unsplash.com/1600x900/?coffee,cafe');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .hero h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 15px 0;
+        }
+        .card p {
+            color: #666;
+        }
+        footer {
+            background: #3c3b3d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Cozy Cafe
+    </header>
+    <nav>
+        <a href="menu.html">Menu</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="contactUs.html">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to Cozy Cafe</h1>
+        <p>Where every cup tells a story</p>
+    </div>
+    <section id="menu" class="content">
+        <div class="card">
+            <img src="https://t4.ftcdn.net/jpg/01/16/61/93/360_F_116619399_YA611bKNOW35ffK0OiyuaOcjAgXgKBui.jpg" alt="Coffee">
+            <h3>Freshly Brewed Coffee</h3>
+            <p>Experience the rich aroma and taste.</p>
+        </div>
+        <div class="card">
+            <img src="https://justbakedcake.com/wp-content/uploads/2023/11/Eggless-chocolate-delight-pastry-scaled.jpg" alt="Pastries">
+            <h3>Delicious Pastries</h3>
+            <p>Baked fresh every morning.</p>
+        </div>
+        <div class="card">
+            <img src="https://ikneadtoeat.com/wp-content/uploads/2019/01/Masala-Chai-Recipe-1.jpg" alt="Tea">
+            <h3>Refreshing Teas</h3>
+            <p>Perfect blends for a soothing experience.</p>
+        </div>
+    </section>
+    <footer>
+        &copy; 2025 Cozy Cafe. All Rights Reserved.
+    </footer>
+</body>
+</html>
